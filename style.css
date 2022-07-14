@@ -1,47 +1,83 @@
-body {
+
+body {  /*Overall font, no margin*/
     margin: 0px;
     display: flex;
     font-family: 'Roboto', sans-serif;
     flex-direction: column;
 }
 
-img {
+img {   /*settings for image of characters*/
     height: auto;
     width: 200px;
 }
 
-.header img{
+.header img{ /*Header image setting*/
     width: 300px;
+
 }
 
-.header{
+.header{    /*header general settings*/
     background-color: #1F2937;
+    padding: 15px 250px 140px;
 }
 
-.top div, h1{
+.top div, h1{   /*header style*/
     color: #F9FAF8;
     font-weight:800;
 }
 
-h1{
+h1{     /*Big title header*/
     font-size: 48px;
+    margin: 0px;
 }
 
-.top div{
+.top div{ /*header Logo*/
     font-size: 24px;
 }
 
-.header a, .header p{
+.header a, .header p{ /*Links and paragraph header*/
     color: #E5E7EB;
     font-size: 18px;
 }
 
-a{
+a{  /*links header*/
     text-decoration: none;
 }
 
-ul{
+ul{     /*list of links header*/
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.header-container{
+
+}
+
+.header .top{ /*logo and links top*/
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.header .body{  /*text and image top page*/
+    display: flex;
+    justify-content: space-between;
+}
+
+button{ /*buttons settings*/
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border: 0px;
+    font-size: 18px;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+}
+
+.text{
+    width: 450px;
 }
